@@ -1,19 +1,21 @@
 {
   "name": "schedule",
-  "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev":     "vercel dev",
+    "build":   "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react":            "^18.3.1",
+    "react-dom":        "^18.3.1",
+    "@vercel/postgres": "^0.10.0",
+    "bcryptjs":         "^2.4.3",
+    "jsonwebtoken":     "^9.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
-    "vite": "^6.0.5"
+    "vite":                 "^6.0.5"
   }
 }
